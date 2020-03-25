@@ -24,11 +24,82 @@ Build API (GraphQl,Rest,JWT)
 
 
 Next Topic
-> NPM
-> Setup React
+> Walk throght of folder
+> Start first app 
 
 
 ////////////////
 https://github.com/Aakashdeveloper 
 https://code.visualstudio.com/
  https://nodejs.org/en/
+
+
+
+/////////////JSON/////////
+JavaScript Script Object Notation
+[
+    {
+        name:'John',
+        class:'React'
+    },
+    {
+        name:'Anjali',
+        class:'Angular
+    }
+]
+
+///////////********///////////
+Step to create Package.Json
+//////////********////////////
+**Node Js installed in system
+> navigate to the folder where you want to create app using cmd/terminal
+> npm init
+> Answer all question
+> Type "yes"
+
+##> Local Dependency
+##> Global Dependency
+> Create/Build/Generate/Test
+
+///////////********///////////
+Step to install local packages
+//////////********////////////
+> navigate to the folder where you want to install package using cmd/terminal
+> npm i <packagename>/ npm install <packagename>
+
+
+///////////********///////////
+Step to install global packages
+//////////********////////////
+
+#Win
+> Run cmd as admin
+> npm i -g create-react-app
+
+#Mac/Linux
+> Open terminal
+> sudo npm i -g create-react-app
+
+
+///////////********///////////
+Step to Create React App
+//////////********////////////
+
+#Win 
+(One Time)
+> Run cmd as admin
+> npm i -g create-react-app
+
+(Next Every timee you want new app)
+> navigate to the folder where you want to create app using cmd/terminal
+> create-react-app firstapp
+
+
+#Mac/Linux
+(One Time)
+> Open terminal
+> sudo npm i -g create-react-app
+
+(Next Every timee you want new app)
+> navigate to the folder where you want to create app using cmd/terminal
+> create-react-app firstapp
