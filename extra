@@ -24,8 +24,10 @@ Build API (GraphQl,Rest,JWT)
 
 
 Next Topic
-> Walk throght of folder
-> Start first app 
+> More Component
+> Classbase Component
+> Adding css to Component
+> State
 
 
 ////////////////
@@ -103,3 +105,31 @@ Step to Create React App
 (Next Every timee you want new app)
 > navigate to the folder where you want to create app using cmd/terminal
 > create-react-app firstapp
+
+npm 
+npx
+yarn
+
+> Hooks
+///////Component////////
+Functional      |       Classbase           
+Dumb Component          Logical Component
+Display Component       Logical Component
+Statless                Statfull
+It cannot State         it Can Maintain
+Lightin weight          Heavy as compare to Functional
+
+State> Local Varibale
+Props> help to transport State
+
+State A    ==Props==>   State B
+
+>
+
+
+
+function add(){
+    var out = [a,b]
+
+    return out
+}
