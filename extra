@@ -21,14 +21,9 @@ MockApi
 Build API (GraphQl,Rest,JWT)
 ------------------------
 
-
-
 Next Topic
-> More Component
-> Classbase Component
-> Adding css to Component
-> State
-
+> Rendering data
+> passing state
 
 ////////////////
 https://github.com/Aakashdeveloper 
@@ -133,3 +128,14 @@ function add(){
 
     return out
 }
+
+
+////Target Element/////
+TagName
+Id
+Class
+
+//
+map in JavaScript
+filter in JavaScript
+indexOf in JavaScript

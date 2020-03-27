@@ -1,0 +1,78 @@
+import React, {Component} from 'react';
+
+class Header extends Component{
+
+    constructor(){
+        super()
+
+        this.state={
+            title:'My React App',
+            details:'skjfb bfue jeb jbcejb jebiu jiebi uiebv'
+        }
+    }
+
+    render(){
+        const mystyles ={
+            header:{
+                backgroundColor:'teal'
+            },
+            logo:{
+                fontSize:'30px',
+                color:'#fff',
+                textAlign:'center'
+            }
+        }
+
+
+        const mydata = this.state;
+        return(
+            <header style={mystyles.header}>
+                <p style={mystyles.logo}>{this.state.title}</p>
+                <center>
+                    <input/>
+                </center>
+            </header>
+        )
+    }
+
+}
+
+export default Header;
+
+
+/*
+const Header = () => {
+    return(
+        <header>
+            <p>React App</p>
+            <input/>
+        </header>
+    )
+}
+
+export default Header;
+
+
+
+/////////Es5////////
+//var React = require('react')
+
+/*function Header(){
+    return(
+        <header>
+            <p>React App</p>
+            <input/>
+        </header>
+    )
+
+}
+
+module.exports = Header;
+
+
+export default Header=()=>{}
+export default Footer=()=>{}
+
+import {Header,Footer} from './abc'
+*/
+
