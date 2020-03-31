@@ -22,8 +22,9 @@ Build API (GraphQl,Rest,JWT)
 ------------------------
 
 Next Topic
-> Rendering data
-> passing state
+> Map vs filter
+> Child to parent
+> Search Bar
 
 ////////////////
 https://github.com/Aakashdeveloper 
@@ -139,3 +140,8 @@ Class
 map in JavaScript
 filter in JavaScript
 indexOf in JavaScript
+
+> 
+var a = ['ss','dd','ff']
+a.map((data) => { return data})
+
