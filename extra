@@ -22,9 +22,9 @@ Build API (GraphQl,Rest,JWT)
 ------------------------
 
 Next Topic
-> Map vs filter
 > Child to parent
 > Search Bar
+> Routing
 
 ////////////////
 https://github.com/Aakashdeveloper 
@@ -144,4 +144,38 @@ indexOf in JavaScript
 > 
 var a = ['ss','dd','ff']
 a.map((data) => { return data})
+
+var age = [12,34,23,18,21]
+age.filter((data) => {return data>18})
+
+age.map((data) => {return data>18})
+
+var age = [12,34,23,18,21]
+age.filter((data) => {return data>18})
+(3) [34, 23, 21]
+age.map((data) => {return data>18})
+(5) [false, true, true, false, true]
+age.map((data) => {return data*2})
+(5) [24, 68, 46, 36, 42]
+
+var a = [0,1,2,3,4,5]
+a.filter((data) => {return data*2})
+a.map((data) => {return data*2})
+
+var a = [0,1,2,3,4,5]
+a.filter((data) => {return data*2})
+(5) [1, 2, 3, 4, 5]
+a.map((data) => {return data*2})
+(6) [0, 2, 4, 6, 8, 10]
+
+var a = [0, 2, 4, 6, 8, 10]
+undefined
+a.indexOf(1)
+-1
+a.indexOf(3)
+-1
+a.indexOf(2)
+1
+a.indexOf(10)
+5
 

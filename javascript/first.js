@@ -193,3 +193,7 @@ class language extends geo{
 }
 
 var hindi = new language('English','India',10.1,22.2)
+
+var a = 10
+a==10?"hii":"bie"
+a==10?a+1:a-1
