@@ -18,7 +18,7 @@ class Home extends Component{
 
     filterNews(keyword){
         const output = this.state.news.filter((data) => {
-            return data.title.indexOf(keyword)>-1
+            return data.title.toLowerCase().indexOf(keyword.toLowerCase())>-1
         })
         this.setState({filtered:output})
     }
@@ -27,7 +27,7 @@ class Home extends Component{
         console.log(this.state.news);
         return(
             <React.Fragment>
-                <Header/>
+                <Header userText={(userInput) => {this.filterNews(userInput)}}/>
                 <NewsDisplay datalist={this.state.filtered}/>
             </React.Fragment>
         )
@@ -35,3 +35,9 @@ class Home extends Component{
 }
 
 export default Home;
+
+/*
+add = (a) =>{return a+a}
+
+add(1)
+*/

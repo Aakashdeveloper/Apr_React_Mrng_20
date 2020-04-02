@@ -22,9 +22,12 @@ Build API (GraphQl,Rest,JWT)
 ------------------------
 
 Next Topic
-> Child to parent
-> Search Bar
-> Routing
+> Details page 
+> Back button
+> lifecyle Hooks
+
+
+
 
 ////////////////
 https://github.com/Aakashdeveloper 
@@ -179,3 +182,5 @@ a.indexOf(2)
 a.indexOf(10)
 5
 
+
+npm i react-router-dom
