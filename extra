@@ -22,9 +22,6 @@ Build API (GraphQl,Rest,JWT)
 ------------------------
 
 Next Topic
-> Details page 
-> Back button
-> lifecyle Hooks
 
 
 
@@ -184,3 +181,8 @@ a.indexOf(10)
 
 
 npm i react-router-dom
+
+/////MockApi//////
+npm i -g json-server
+
+json-server --watch db.json --port 8900
