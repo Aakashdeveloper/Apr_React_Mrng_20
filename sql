@@ -45,4 +45,14 @@ DELETE FROM Employee WHERE id=1;
 SELECT * FROM Employee LIMIT 3;
 
 SELECT * FROM Employee WHERE country='Germany' LIMIT 3;
-SELECT * FROM customers WHERE state="CA" or country="USA" LIMIT 3;s
+SELECT * FROM customers WHERE state="CA" or country="USA" LIMIT 3;
+SELECT * FROM Customers WHERE Country='Germany' AND ROWNUM <= 3;
+SELECT MAX(buyPrice) AS SmallestPrice FROM products;
+SELECT MIN(buyPrice) AS SmallestPrice FROM products;
+SELECT COUNT(productCode) FROM products;
+SELECT AVG(buyPrice) FROM products;
+SELECT SUM(quantityOrdered) FROM orderdetails;
+SELECT * FROM customers WHERE customerName LIKE 'a%';
+SELECT * FROM customers WHERE customerName LIKE '%a%';
+SELECT * FROM customers WHERE customerName LIKE 'a%r';
+SELECT * FROM customers WHERE customerName LIKE 'a%r';
