@@ -56,3 +56,33 @@ SELECT * FROM customers WHERE customerName LIKE 'a%';
 SELECT * FROM customers WHERE customerName LIKE '%a%';
 SELECT * FROM customers WHERE customerName LIKE 'a%r';
 SELECT * FROM customers WHERE customerName LIKE 'a%r';
+
+
+10
+15
+5
+
+10+15+5
+
+10/30  =>33.33
+15/30  =>50
+5/30   =>16.67
+
+sno.   hindi  english computer
+1       80         
+2              80
+3                       80
+
+{
+    sno:1,
+    hindi:80
+},
+{
+    sno:2,
+    english:80
+}
+
+
+database      database
+TABLE         Collections
+ROW           Document
