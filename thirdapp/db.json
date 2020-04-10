@@ -187,6 +187,7 @@
   ],
   "resturents": [
     {
+      "id":1,
       "name": "Hopdoddy Burger Bar",
       "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
       "category": "Burgers",

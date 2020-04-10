@@ -3,6 +3,7 @@ JavaScript (2days)
 NPM
 React - 3
 React-Hooks -1
+------------------------------
 React-Redux -2
 React-Redux-Saga-1
 React-GraphQl-Apollo-1
@@ -186,3 +187,9 @@ npm i react-router-dom
 npm i -g json-server
 
 json-server --watch db.json --port 8900
+
+
+
+useState
+useEffect
+context
