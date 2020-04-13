@@ -193,3 +193,12 @@ json-server --watch db.json --port 8900
 useState
 useEffect
 context
+
+
+Redux   React-Redux 
+
+mapStateToProps  => Help to recieve updated state from store
+mapDispatchToProps  => Will help to call action(disptach)
+
+container will handle redux call
+component will help to display
