@@ -202,3 +202,5 @@ mapDispatchToProps  => Will help to call action(disptach)
 
 container will handle redux call
 component will help to display
+
+npm i redux react-redux redux-promise prop-types react-slick react-router-dom
