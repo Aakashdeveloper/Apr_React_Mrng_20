@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <header>
             <div>
-                Redux App
+                <Link to="/">Redux App</Link>
             </div>
         </header>
     )

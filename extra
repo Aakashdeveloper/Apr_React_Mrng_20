@@ -3,8 +3,8 @@ JavaScript (2days)
 NPM
 React - 3
 React-Hooks -1
-------------------------------
 React-Redux -2
+------------------------------
 React-Redux-Saga-1
 React-GraphQl-Apollo-1
 React-JWT-1
@@ -204,3 +204,9 @@ container will handle redux call
 component will help to display
 
 npm i redux react-redux redux-promise prop-types react-slick react-router-dom
+
+
+get 
+post 
+put
+patch delete

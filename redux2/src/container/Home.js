@@ -1,16 +1,24 @@
 import React, {Component, Fragment} from 'react';
 import { connect} from 'react-redux';
 import { bindActionCreators} from 'redux';
-import { latestNews } from '../actions'
+import { latestNews,articleNews,galleryNews } from '../actions';
+
+import LatestDisplay from '../component/Home/LatestDisplay';
+import ArticleDisplay from '../component/Home/ArticleDisplay';
+import GalleryDisplay from '../component/Home/GalleryDisplay';
 
 class Home extends Component{
     componentDidMount(){
         this.props.latestNews()
+        this.props.articleNews()
+        this.props.galleryNews()
     }
     render(){
         return(
             <Fragment>
-                <h1>Home Page</h1>
+               <LatestDisplay ldata={this.props.datalist.latestdata}/>
+               <ArticleDisplay adata={this.props.datalist.articledata}/>
+               <GalleryDisplay gdata={this.props.gallerylist.gallerydata}/>
             </Fragment>
         )
     }
@@ -19,12 +27,13 @@ class Home extends Component{
 function mapStateToProps(state){
     console.log(state)
     return{
-        datalist:state.articles
+        datalist:state.articles,
+        gallerylist:state.gallery
     }
 }
 
 function mapDispatchToProps(dispatch){
-    return bindActionCreators({latestNews},dispatch)
+    return bindActionCreators({latestNews,articleNews,galleryNews},dispatch)
 }
 
 export default connect(mapStateToProps,mapDispatchToProps)(Home);
