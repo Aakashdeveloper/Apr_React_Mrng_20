@@ -17,6 +17,10 @@ class Profile extends Component{
     }
 
     render(){
+        if(localStorage.getItem('Token') == null){
+            this.props.history.push('/login')
+        }
+        localStorage.setItem('role',this.state.user.role)
         return(
             <div>
                 <div className="panel panel-warning">
@@ -25,11 +29,11 @@ class Profile extends Component{
                     </div>
                     <div className="panel-body">
                         <h1>Hi {this.state.user.name}</h1>
-                        <h2>Your email id is{this.state.user.email}</h2>
+                        <h2>Your email id is {this.state.user.email}</h2>
                         <h3>Your Role is {this.state.user.role}</h3>
                     </div>
                     <button className="btn btn-danger"
-                    onClickk={this.handleLogout}>
+                    onClick={this.handleLogout}>
                         Logout
                     </button>
                 </div>

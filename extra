@@ -5,9 +5,11 @@ React - 3
 React-Hooks -1
 React-Redux -2
 React-GraphQl-Apollo-1
+React-JWT-1
+GitHub
+MockApi
 ------------------------------
 React-Redux-Saga-1
-React-JWT-1
 (Basic) React-Native- 1
 ---------------------
 Production Ready
@@ -15,8 +17,7 @@ Production Ready
 Docker
 Nginx
 Testing(Jest,Engym-SAction,Reducer)
-GitHub
-MockApi
+
 
 ----------Not------------
 Build API (GraphQl,Rest,JWT)
@@ -231,3 +232,18 @@ npm i apollo-boost graphql graphql-tag react-apollo
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+////
+GitHub
+//////
+>>>>>>First<<<<<<<<<<<
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/mytest.git
+git push -u origin master
+
+>>>>>>All Next<<<<<<<<<<<
+git add .
+git commit -m "first commit"
+git push 
