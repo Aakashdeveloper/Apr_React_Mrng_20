@@ -8,12 +8,12 @@ React-GraphQl-Apollo-1
 React-JWT-1
 GitHub
 MockApi
+Production Ready
+(Tomcat,apcha,xamp,NodeJs(MERN))
 ------------------------------
 React-Redux-Saga-1
 (Basic) React-Native- 1
 ---------------------
-Production Ready
-(Tomcat,apcha,xamp,NodeJs(MERN))
 Docker
 Nginx
 Testing(Jest,Engym-SAction,Reducer)
@@ -247,3 +247,9 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push 
+
+
+git checkout -b myfeature
+
+//////////////Production////////////////////////////
+npm run build
