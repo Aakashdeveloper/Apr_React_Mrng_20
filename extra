@@ -10,13 +10,14 @@ GitHub
 MockApi
 Production Ready
 (Tomcat,apcha,xamp,NodeJs(MERN))
+(Basic) React-Native- 1
+Testing(Jest,Engym-SAction,Reducer)
+Docker
 ------------------------------
 React-Redux-Saga-1
-(Basic) React-Native- 1
 ---------------------
-Docker
 Nginx
-Testing(Jest,Engym-SAction,Reducer)
+
 
 
 ----------Not------------
@@ -253,3 +254,15 @@ git checkout -b myfeature
 
 //////////////Production////////////////////////////
 npm run build
+
+npm i -g create-react-native-app
+npm i -g expo-cli
+create-react-native-app mymobi
+
+
+expo (app)
+
+
+npm i react-test-renderer enzyme enzyme-adapter-react-16  react-addons-test-utils
+
+generator function
