@@ -10,7 +10,6 @@ export function latestNews(){
         type:'GET_LATEST',
         payload:output
     }
-
 }
 
 export function articleNews(){

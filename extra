@@ -13,13 +13,8 @@ Production Ready
 (Basic) React-Native- 1
 Testing(Jest,Engym-SAction,Reducer)
 Docker
-------------------------------
 React-Redux-Saga-1
----------------------
 Nginx
-
-
-
 ----------Not------------
 Build API (GraphQl,Rest,JWT)
 ------------------------
@@ -266,3 +261,20 @@ expo (app)
 npm i react-test-renderer enzyme enzyme-adapter-react-16  react-addons-test-utils
 
 generator function
+
+
+docker build . -t reactapp
+docker run -p 6700:3000 reactapp
+docker image ls
+
+
+nginx.conf
+server {
+        listen       8081;
+        server_name  localhost;
+
+        location / {
+	    root   /var/www/react-app;
+            index  index.html index.htm;
+        }
+    }
